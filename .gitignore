@@ -1,0 +1,41 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# System/tool-specific ignores
+.directory
+.DS_Store
+*~
+*.tmp
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# Builds
+build/
+builds/
+export/
+exports/
+*.apk
+*.aab
+*.exe
+*.pck
+*.zip
+*.app
+*.dmg
+*.deb
+*.rpm
